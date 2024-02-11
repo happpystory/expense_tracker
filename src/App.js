@@ -9,7 +9,9 @@ import './App.css';
 function App() {
   return (
     <GlobalProvider>
-      {/* <Header /> */}
+      <div className="header__section">
+        <Header />
+      </div>
       <div className="container">
        <Balance />
        <IncomeExpenses />

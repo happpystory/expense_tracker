@@ -20,6 +20,10 @@ body {
   font-size: 18px;
 }
 
+.header__section { 
+  display: none;
+}
+
 .container {
   margin: 30px auto;
   width: 400px;
